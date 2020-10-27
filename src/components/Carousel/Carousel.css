@@ -1,0 +1,28 @@
+/**
+ * Carousel
+ *******************************************
+ */
+
+::-webkit-scrollbar {
+  display: none;
+}
+.carousel-title {
+  color: white;
+  font-size: 18px;
+  padding-left: 30px;
+  width: 100%;
+}
+
+.carousel {
+  overflow: scroll;
+  padding-left: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.carousel > div {
+  font-size: 0;
+  white-space: nowrap;
+  margin: 70px 0px;
+  padding-bottom: 25px;
+}

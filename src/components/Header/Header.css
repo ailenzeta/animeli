@@ -1,0 +1,19 @@
+header {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 250px;
+  height: 150px;
+  background-image: url('../../assets/animeli.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
